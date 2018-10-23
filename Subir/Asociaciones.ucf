@@ -1,0 +1,45 @@
+# Reloj principal del sistema 
+NET "CLK" LOC = "M6";              # Señal de reloj del sistema 
+# Conexiones de los PULSADORES 
+NET "Up0" LOC = "G12";        # Pulsador 0 --Con este sumo 1
+NET "Down0" LOC = "C11";             # Pulsador 1 --Con este resto 1
+NET "Up1" LOC = "M4";            	 # Pulsador 2 --con este sumo 10
+NET "Down1" LOC = "A7";              # Pulsador 3 --con este resto 10
+#NET "Reset" LOC = "G1";				  	 #RESET
+## Conexiones de los INTERRUPTORES 
+#NET "SW0" LOC = "P11";            # Interruptor 0 (SW0) 
+# Conexiones de los DISPLAYS 
+NET "SDP" LOC = "N13";   		  # señal = DP 
+NET "SEG7<6>" LOC = "L14";   		  # señal = CA 
+NET "SEG7<5>" LOC = "H12";         # Señal = CB 
+NET "SEG7<4>" LOC = "N14";         # Señal = CC 
+NET "SEG7<3>" LOC = "N11";         # Señal = CD 
+NET "SEG7<2>" LOC = "P12";         # Señal = CE 
+NET "SEG7<1>" LOC = "L13";         # Señal = CF 
+NET "SEG7<0>" LOC = "M12";         # Señal = CG 
+# Señales de activación de los displays 
+NET "DISP0" LOC = "F12";          # Activación del display 0 = AN0, activa a nivel bajo 
+NET "DISP1" LOC = "J12";              # Activación del display 1 = AN1, activa a nivel bajo 
+NET "DISP2" LOC = "M13";              # Activación del display 2 = AN2, activa a nivel bajo 
+NET "DISP3" LOC = "K14";              # Activación del display 3 = AN3, activa a nivel bajo 
+## Salidas digitales externas  
+NET "DIN" LOC = "A13";         # Salida Digital0 
+NET "SSCLK" LOC = "C12";           # Salida Digital1 
+NET "CS0" LOC = "C13";           # Salida Digital2 
+NET "CS1" LOC = "D12";           # Salida Digital3 
+#NET "OUT_DIG4" LOC = "N5";           # Salida Digital4 
+#NET "OUT_DIG5" LOC = "N4";           # Salida Digital5 
+#NET "OUT_DIG6" LOC = "P4";           # Salida Digital6 
+#NET "OUT_DIG7" LOC = "G1";           # Salida Digital7
+#SWITCHES
+NET "SW<0>" LOC = "P11";			#señal del swicth 1 para la encriptacion  la sw
+NET "SW<1>" LOC = "L3";				#señal del swicth 2 para la encriptacion  la sw
+NET "SW<2>" LOC = "K3";				#señal del swicth 3 para la encriptacion  la sw
+NET "SW<3>" LOC = "B4";				#señal del swicth 4 para la encriptacion  la sw
+NET "SW<4>" LOC = "G3";				#señal del swicth 5 para la encriptacion  la sw
+NET "SW<5>" LOC = "F3";				#señal del swicth 6 para la encriptacion  la sw
+NET "SW6" LOC = "E2";				#señal del swicth 6 para la encriptacion  la sw
+NET "Reset" LOC = "N3";			#RESET que se asocia con el sw7
+#ENTRADA DIGITAL
+NET "DOUT" LOC = "C6";
+
